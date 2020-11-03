@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_ROOT}/AGMCapturer_iOS" "${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"resolv" -l"stdc++" -framework "AGMBase" -framework "AGMCapturer" -framework "AGMRenderer" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreML" -framework "CoreMedia" -framework "Foundation" -framework "Masonry" -framework "OpenGLES" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox" -framework "libCNamaSDK"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

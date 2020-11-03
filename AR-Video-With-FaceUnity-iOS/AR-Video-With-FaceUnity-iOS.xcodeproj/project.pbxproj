@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6330A98425471AD800EF6CB4 /* VideoProcessingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A94D25471AD500EF6CB4 /* VideoProcessingManager.m */; };
+		6330A98525471AD800EF6CB4 /* CapturerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A95125471AD500EF6CB4 /* CapturerManager.m */; };
+		6330A98625471AD800EF6CB4 /* FUTestRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A95625471AD700EF6CB4 /* FUTestRecorder.m */; };
+		6330A98725471AD800EF6CB4 /* FUBottomColletionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A95925471AD700EF6CB4 /* FUBottomColletionView.m */; };
+		6330A98825471AD800EF6CB4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6330A95A25471AD700EF6CB4 /* Media.xcassets */; };
+		6330A98925471AD800EF6CB4 /* FUDemoBar.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6330A95B25471AD700EF6CB4 /* FUDemoBar.strings */; };
+		6330A98A25471AD800EF6CB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6330A95D25471AD700EF6CB4 /* Localizable.strings */; };
+		6330A98B25471AD800EF6CB4 /* FUBeautyEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96125471AD700EF6CB4 /* FUBeautyEditView.m */; };
+		6330A98C25471AD800EF6CB4 /* FUSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96325471AD700EF6CB4 /* FUSlider.m */; };
+		6330A98D25471AD800EF6CB4 /* FUBeautyParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96525471AD700EF6CB4 /* FUBeautyParam.m */; };
+		6330A98E25471AD800EF6CB4 /* FUFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96625471AD700EF6CB4 /* FUFilterView.m */; };
+		6330A98F25471AD800EF6CB4 /* UIImage+demobar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96725471AD700EF6CB4 /* UIImage+demobar.m */; };
+		6330A99025471AD800EF6CB4 /* FUAPIDemoBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96825471AD700EF6CB4 /* FUAPIDemoBar.m */; };
+		6330A99125471AD800EF6CB4 /* FUAPIDemoBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6330A96925471AD700EF6CB4 /* FUAPIDemoBar.xib */; };
+		6330A99225471AD800EF6CB4 /* UIColor+FUAPIDemoBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96C25471AD700EF6CB4 /* UIColor+FUAPIDemoBar.m */; };
+		6330A99325471AD800EF6CB4 /* FUBeautyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A96E25471AD700EF6CB4 /* FUBeautyView.m */; };
+		6330A99425471AD800EF6CB4 /* FUDateHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A97125471AD700EF6CB4 /* FUDateHandle.m */; };
+		6330A99525471AD800EF6CB4 /* linjia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97925471AD700EF6CB4 /* linjia.bundle */; };
+		6330A99625471AD800EF6CB4 /* gangfeng.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97A25471AD700EF6CB4 /* gangfeng.bundle */; };
+		6330A99725471AD800EF6CB4 /* xueqiu_lm_fu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97C25471AD700EF6CB4 /* xueqiu_lm_fu.png */; };
+		6330A99825471AD800EF6CB4 /* fashi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97D25471AD700EF6CB4 /* fashi.bundle */; };
+		6330A99925471AD800EF6CB4 /* sdlu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97E25471AD700EF6CB4 /* sdlu.png */; };
+		6330A99A25471AD800EF6CB4 /* sdlu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6330A97F25471AD700EF6CB4 /* sdlu.bundle */; };
+		6330A99B25471AD800EF6CB4 /* wobushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6330A98025471AD700EF6CB4 /* wobushi.png */; };
+		6330A99C25471AD800EF6CB4 /* xueqiu_lm_fu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6330A98125471AD700EF6CB4 /* xueqiu_lm_fu.bundle */; };
+		6330A99D25471AD800EF6CB4 /* fashi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6330A98225471AD700EF6CB4 /* fashi.png */; };
+		6330A99E25471AD800EF6CB4 /* FUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330A98325471AD700EF6CB4 /* FUManager.m */; };
+		63583299254027CD00B1709A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63583298254027CD00B1709A /* AppDelegate.m */; };
+		6358329F254027CD00B1709A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358329E254027CD00B1709A /* ViewController.m */; };
+		635832A4254027D000B1709A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635832A3254027D000B1709A /* Assets.xcassets */; };
+		635832A7254027D000B1709A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635832A5254027D000B1709A /* LaunchScreen.storyboard */; };
+		635832AA254027D000B1709A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635832A9254027D000B1709A /* main.m */; };
+		635D4ED72540407B009C1077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635D4ED62540407B009C1077 /* Main.storyboard */; };
+		63C8CA682542BD3500F93C66 /* ARFaceUnityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CA672542BD3500F93C66 /* ARFaceUnityViewController.m */; };
+		63C8CAC02542CD4000F93C66 /* FUOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CABC2542CD3F00F93C66 /* FUOpenGLView.m */; };
+		63C8CAC12542CD4000F93C66 /* FUCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C8CABF2542CD4000F93C66 /* FUCamera.m */; };
+		63C8CAD22542D23100F93C66 /* ARtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8CA6B2542C23700F93C66 /* ARtcKit.framework */; };
+		63C8CAD32542D23100F93C66 /* ARtcKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63C8CA6B2542C23700F93C66 /* ARtcKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A24093EE76BEBDD8BF52CC59 /* Pods_AR_Video_With_FaceUnity_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDC2FBAF52C02903C0773BD /* Pods_AR_Video_With_FaceUnity_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63C8CAD42542D23100F93C66 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63C8CAD32542D23100F93C66 /* ARtcKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		429D4B488D29A16F9B282D0D /* Pods-AR-Video-With-FaceUnity-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Video-With-FaceUnity-iOS.release.xcconfig"; path = "Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6330A94C25471AD500EF6CB4 /* CapturerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturerManager.h; sourceTree = "<group>"; };
+		6330A94D25471AD500EF6CB4 /* VideoProcessingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoProcessingManager.m; sourceTree = "<group>"; };
+		6330A94E25471AD500EF6CB4 /* CapturerManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturerManagerDelegate.h; sourceTree = "<group>"; };
+		6330A94F25471AD500EF6CB4 /* VideoFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFilterDelegate.h; sourceTree = "<group>"; };
+		6330A95025471AD500EF6CB4 /* VideoProcessingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProcessingManager.h; sourceTree = "<group>"; };
+		6330A95125471AD500EF6CB4 /* CapturerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturerManager.m; sourceTree = "<group>"; };
+		6330A95325471AD700EF6CB4 /* FUTestRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUTestRecorder.h; sourceTree = "<group>"; };
+		6330A95425471AD700EF6CB4 /* authpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authpack.h; sourceTree = "<group>"; };
+		6330A95525471AD700EF6CB4 /* FUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUManager.h; sourceTree = "<group>"; };
+		6330A95625471AD700EF6CB4 /* FUTestRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUTestRecorder.m; sourceTree = "<group>"; };
+		6330A95825471AD700EF6CB4 /* UIColor+FUAPIDemoBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FUAPIDemoBar.h"; sourceTree = "<group>"; };
+		6330A95925471AD700EF6CB4 /* FUBottomColletionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUBottomColletionView.m; sourceTree = "<group>"; };
+		6330A95A25471AD700EF6CB4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6330A95C25471AD700EF6CB4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/FUDemoBar.strings"; sourceTree = "<group>"; };
+		6330A95E25471AD700EF6CB4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6330A95F25471AD700EF6CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FUDemoBar.strings; sourceTree = "<group>"; };
+		6330A96025471AD700EF6CB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6330A96125471AD700EF6CB4 /* FUBeautyEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUBeautyEditView.m; sourceTree = "<group>"; };
+		6330A96225471AD700EF6CB4 /* FUDemoBarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUDemoBarDefine.h; sourceTree = "<group>"; };
+		6330A96325471AD700EF6CB4 /* FUSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUSlider.m; sourceTree = "<group>"; };
+		6330A96425471AD700EF6CB4 /* FUBeautyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUBeautyView.h; sourceTree = "<group>"; };
+		6330A96525471AD700EF6CB4 /* FUBeautyParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUBeautyParam.m; sourceTree = "<group>"; };
+		6330A96625471AD700EF6CB4 /* FUFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUFilterView.m; sourceTree = "<group>"; };
+		6330A96725471AD700EF6CB4 /* UIImage+demobar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+demobar.m"; sourceTree = "<group>"; };
+		6330A96825471AD700EF6CB4 /* FUAPIDemoBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUAPIDemoBar.m; sourceTree = "<group>"; };
+		6330A96A25471AD700EF6CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FUAPIDemoBar.xib; sourceTree = "<group>"; };
+		6330A96B25471AD700EF6CB4 /* FUBeautyEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUBeautyEditView.h; sourceTree = "<group>"; };
+		6330A96C25471AD700EF6CB4 /* UIColor+FUAPIDemoBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FUAPIDemoBar.m"; sourceTree = "<group>"; };
+		6330A96D25471AD700EF6CB4 /* FUBottomColletionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUBottomColletionView.h; sourceTree = "<group>"; };
+		6330A96E25471AD700EF6CB4 /* FUBeautyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUBeautyView.m; sourceTree = "<group>"; };
+		6330A96F25471AD700EF6CB4 /* FUSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUSlider.h; sourceTree = "<group>"; };
+		6330A97125471AD700EF6CB4 /* FUDateHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUDateHandle.m; sourceTree = "<group>"; };
+		6330A97225471AD700EF6CB4 /* FUDateHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUDateHandle.h; sourceTree = "<group>"; };
+		6330A97325471AD700EF6CB4 /* FUFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUFilterView.h; sourceTree = "<group>"; };
+		6330A97425471AD700EF6CB4 /* FUBeautyParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUBeautyParam.h; sourceTree = "<group>"; };
+		6330A97525471AD700EF6CB4 /* FUAPIDemoBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUAPIDemoBar.h; sourceTree = "<group>"; };
+		6330A97625471AD700EF6CB4 /* UIImage+demobar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+demobar.h"; sourceTree = "<group>"; };
+		6330A97925471AD700EF6CB4 /* linjia.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = linjia.bundle; sourceTree = "<group>"; };
+		6330A97A25471AD700EF6CB4 /* gangfeng.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = gangfeng.bundle; sourceTree = "<group>"; };
+		6330A97C25471AD700EF6CB4 /* xueqiu_lm_fu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xueqiu_lm_fu.png; sourceTree = "<group>"; };
+		6330A97D25471AD700EF6CB4 /* fashi.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = fashi.bundle; sourceTree = "<group>"; };
+		6330A97E25471AD700EF6CB4 /* sdlu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdlu.png; sourceTree = "<group>"; };
+		6330A97F25471AD700EF6CB4 /* sdlu.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = sdlu.bundle; sourceTree = "<group>"; };
+		6330A98025471AD700EF6CB4 /* wobushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wobushi.png; sourceTree = "<group>"; };
+		6330A98125471AD700EF6CB4 /* xueqiu_lm_fu.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = xueqiu_lm_fu.bundle; sourceTree = "<group>"; };
+		6330A98225471AD700EF6CB4 /* fashi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fashi.png; sourceTree = "<group>"; };
+		6330A98325471AD700EF6CB4 /* FUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUManager.m; sourceTree = "<group>"; };
+		63583294254027CD00B1709A /* AR-Video-With-FaceUnity-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Video-With-FaceUnity-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63583297254027CD00B1709A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63583298254027CD00B1709A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6358329D254027CD00B1709A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6358329E254027CD00B1709A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		635832A3254027D000B1709A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635832A6254027D000B1709A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		635832A8254027D000B1709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635832A9254027D000B1709A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635D4ED62540407B009C1077 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63C8CA662542BD3500F93C66 /* ARFaceUnityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFaceUnityViewController.h; sourceTree = "<group>"; };
+		63C8CA672542BD3500F93C66 /* ARFaceUnityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFaceUnityViewController.m; sourceTree = "<group>"; };
+		63C8CA6B2542C23700F93C66 /* ARtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ARtcKit.framework; sourceTree = "<group>"; };
+		63C8CABA2542CA8B00F93C66 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		63C8CABC2542CD3F00F93C66 /* FUOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUOpenGLView.m; sourceTree = "<group>"; };
+		63C8CABD2542CD3F00F93C66 /* FUOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUOpenGLView.h; sourceTree = "<group>"; };
+		63C8CABE2542CD4000F93C66 /* FUCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUCamera.h; sourceTree = "<group>"; };
+		63C8CABF2542CD4000F93C66 /* FUCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUCamera.m; sourceTree = "<group>"; };
+		7EDC2FBAF52C02903C0773BD /* Pods_AR_Video_With_FaceUnity_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Video_With_FaceUnity_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EF493C3DF2CC45233C79FE /* Pods-AR-Video-With-FaceUnity-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Video-With-FaceUnity-iOS.debug.xcconfig"; path = "Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63583291254027CD00B1709A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24093EE76BEBDD8BF52CC59 /* Pods_AR_Video_With_FaceUnity_iOS.framework in Frameworks */,
+				63C8CAD22542D23100F93C66 /* ARtcKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22188E10EECA4EE032040E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83EF493C3DF2CC45233C79FE /* Pods-AR-Video-With-FaceUnity-iOS.debug.xcconfig */,
+				429D4B488D29A16F9B282D0D /* Pods-AR-Video-With-FaceUnity-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6330A94B25471AD500EF6CB4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6330A94C25471AD500EF6CB4 /* CapturerManager.h */,
+				6330A95125471AD500EF6CB4 /* CapturerManager.m */,
+				6330A95025471AD500EF6CB4 /* VideoProcessingManager.h */,
+				6330A94D25471AD500EF6CB4 /* VideoProcessingManager.m */,
+				6330A94E25471AD500EF6CB4 /* CapturerManagerDelegate.h */,
+				6330A94F25471AD500EF6CB4 /* VideoFilterDelegate.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6330A95225471AD700EF6CB4 /* FaceUnity */ = {
+			isa = PBXGroup;
+			children = (
+				6330A95325471AD700EF6CB4 /* FUTestRecorder.h */,
+				6330A95425471AD700EF6CB4 /* authpack.h */,
+				6330A95525471AD700EF6CB4 /* FUManager.h */,
+				6330A95625471AD700EF6CB4 /* FUTestRecorder.m */,
+				6330A95725471AD700EF6CB4 /* FUAPIDemoBar */,
+				6330A97725471AD700EF6CB4 /* items */,
+				6330A98325471AD700EF6CB4 /* FUManager.m */,
+			);
+			path = FaceUnity;
+			sourceTree = "<group>";
+		};
+		6330A95725471AD700EF6CB4 /* FUAPIDemoBar */ = {
+			isa = PBXGroup;
+			children = (
+				6330A95825471AD700EF6CB4 /* UIColor+FUAPIDemoBar.h */,
+				6330A95925471AD700EF6CB4 /* FUBottomColletionView.m */,
+				6330A95A25471AD700EF6CB4 /* Media.xcassets */,
+				6330A95B25471AD700EF6CB4 /* FUDemoBar.strings */,
+				6330A95D25471AD700EF6CB4 /* Localizable.strings */,
+				6330A96125471AD700EF6CB4 /* FUBeautyEditView.m */,
+				6330A96225471AD700EF6CB4 /* FUDemoBarDefine.h */,
+				6330A96325471AD700EF6CB4 /* FUSlider.m */,
+				6330A96425471AD700EF6CB4 /* FUBeautyView.h */,
+				6330A96525471AD700EF6CB4 /* FUBeautyParam.m */,
+				6330A96625471AD700EF6CB4 /* FUFilterView.m */,
+				6330A96725471AD700EF6CB4 /* UIImage+demobar.m */,
+				6330A96825471AD700EF6CB4 /* FUAPIDemoBar.m */,
+				6330A96925471AD700EF6CB4 /* FUAPIDemoBar.xib */,
+				6330A96B25471AD700EF6CB4 /* FUBeautyEditView.h */,
+				6330A96C25471AD700EF6CB4 /* UIColor+FUAPIDemoBar.m */,
+				6330A96D25471AD700EF6CB4 /* FUBottomColletionView.h */,
+				6330A96E25471AD700EF6CB4 /* FUBeautyView.m */,
+				6330A96F25471AD700EF6CB4 /* FUSlider.h */,
+				6330A97025471AD700EF6CB4 /* modle */,
+				6330A97325471AD700EF6CB4 /* FUFilterView.h */,
+				6330A97425471AD700EF6CB4 /* FUBeautyParam.h */,
+				6330A97525471AD700EF6CB4 /* FUAPIDemoBar.h */,
+				6330A97625471AD700EF6CB4 /* UIImage+demobar.h */,
+			);
+			path = FUAPIDemoBar;
+			sourceTree = "<group>";
+		};
+		6330A97025471AD700EF6CB4 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				6330A97125471AD700EF6CB4 /* FUDateHandle.m */,
+				6330A97225471AD700EF6CB4 /* FUDateHandle.h */,
+			);
+			path = modle;
+			sourceTree = "<group>";
+		};
+		6330A97725471AD700EF6CB4 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				6330A97825471AD700EF6CB4 /* 美妆 */,
+				6330A97B25471AD700EF6CB4 /* 贴纸 */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		6330A97825471AD700EF6CB4 /* 美妆 */ = {
+			isa = PBXGroup;
+			children = (
+				6330A97925471AD700EF6CB4 /* linjia.bundle */,
+				6330A97A25471AD700EF6CB4 /* gangfeng.bundle */,
+			);
+			path = "美妆";
+			sourceTree = "<group>";
+		};
+		6330A97B25471AD700EF6CB4 /* 贴纸 */ = {
+			isa = PBXGroup;
+			children = (
+				6330A97C25471AD700EF6CB4 /* xueqiu_lm_fu.png */,
+				6330A97D25471AD700EF6CB4 /* fashi.bundle */,
+				6330A97E25471AD700EF6CB4 /* sdlu.png */,
+				6330A97F25471AD700EF6CB4 /* sdlu.bundle */,
+				6330A98025471AD700EF6CB4 /* wobushi.png */,
+				6330A98125471AD700EF6CB4 /* xueqiu_lm_fu.bundle */,
+				6330A98225471AD700EF6CB4 /* fashi.png */,
+			);
+			path = "贴纸";
+			sourceTree = "<group>";
+		};
+		6358328B254027CD00B1709A = {
+			isa = PBXGroup;
+			children = (
+				63583296254027CD00B1709A /* AR-Video-With-FaceUnity-iOS */,
+				63583295254027CD00B1709A /* Products */,
+				22188E10EECA4EE032040E65 /* Pods */,
+				DFD2A8E8F9B86F0A3834D3D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63583295254027CD00B1709A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63583294254027CD00B1709A /* AR-Video-With-FaceUnity-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63583296254027CD00B1709A /* AR-Video-With-FaceUnity-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63C8CA6B2542C23700F93C66 /* ARtcKit.framework */,
+				6330A95225471AD700EF6CB4 /* FaceUnity */,
+				6330A94B25471AD500EF6CB4 /* Utils */,
+				63583297254027CD00B1709A /* AppDelegate.h */,
+				63583298254027CD00B1709A /* AppDelegate.m */,
+				6358329D254027CD00B1709A /* ViewController.h */,
+				6358329E254027CD00B1709A /* ViewController.m */,
+				63C8CA662542BD3500F93C66 /* ARFaceUnityViewController.h */,
+				63C8CA672542BD3500F93C66 /* ARFaceUnityViewController.m */,
+				63C8CABE2542CD4000F93C66 /* FUCamera.h */,
+				63C8CABF2542CD4000F93C66 /* FUCamera.m */,
+				63C8CABD2542CD3F00F93C66 /* FUOpenGLView.h */,
+				63C8CABC2542CD3F00F93C66 /* FUOpenGLView.m */,
+				635D4ED62540407B009C1077 /* Main.storyboard */,
+				635832A3254027D000B1709A /* Assets.xcassets */,
+				635832A5254027D000B1709A /* LaunchScreen.storyboard */,
+				635832A8254027D000B1709A /* Info.plist */,
+				635832A9254027D000B1709A /* main.m */,
+				63C8CABA2542CA8B00F93C66 /* PrefixHeader.pch */,
+			);
+			path = "AR-Video-With-FaceUnity-iOS";
+			sourceTree = "<group>";
+		};
+		DFD2A8E8F9B86F0A3834D3D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EDC2FBAF52C02903C0773BD /* Pods_AR_Video_With_FaceUnity_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63583293254027CD00B1709A /* AR-Video-With-FaceUnity-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635832AD254027D000B1709A /* Build configuration list for PBXNativeTarget "AR-Video-With-FaceUnity-iOS" */;
+			buildPhases = (
+				267F21255820A49DDB8D87F9 /* [CP] Check Pods Manifest.lock */,
+				63583290254027CD00B1709A /* Sources */,
+				63583291254027CD00B1709A /* Frameworks */,
+				63583292254027CD00B1709A /* Resources */,
+				BCA8B7D680E94783B41A3B40 /* [CP] Embed Pods Frameworks */,
+				C57185CD2441194CF73D05C7 /* [CP] Copy Pods Resources */,
+				63C8CAD42542D23100F93C66 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-Video-With-FaceUnity-iOS";
+			productName = "AR-Video-With-FaceUnity-iOS";
+			productReference = 63583294254027CD00B1709A /* AR-Video-With-FaceUnity-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6358328C254027CD00B1709A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					63583293254027CD00B1709A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6358328F254027CD00B1709A /* Build configuration list for PBXProject "AR-Video-With-FaceUnity-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6358328B254027CD00B1709A;
+			productRefGroup = 63583295254027CD00B1709A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63583293254027CD00B1709A /* AR-Video-With-FaceUnity-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63583292254027CD00B1709A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6330A98925471AD800EF6CB4 /* FUDemoBar.strings in Resources */,
+				6330A98A25471AD800EF6CB4 /* Localizable.strings in Resources */,
+				635D4ED72540407B009C1077 /* Main.storyboard in Resources */,
+				6330A99825471AD800EF6CB4 /* fashi.bundle in Resources */,
+				6330A99125471AD800EF6CB4 /* FUAPIDemoBar.xib in Resources */,
+				6330A99C25471AD800EF6CB4 /* xueqiu_lm_fu.bundle in Resources */,
+				6330A99725471AD800EF6CB4 /* xueqiu_lm_fu.png in Resources */,
+				6330A99D25471AD800EF6CB4 /* fashi.png in Resources */,
+				6330A99525471AD800EF6CB4 /* linjia.bundle in Resources */,
+				6330A99B25471AD800EF6CB4 /* wobushi.png in Resources */,
+				635832A7254027D000B1709A /* LaunchScreen.storyboard in Resources */,
+				6330A99A25471AD800EF6CB4 /* sdlu.bundle in Resources */,
+				6330A98825471AD800EF6CB4 /* Media.xcassets in Resources */,
+				6330A99625471AD800EF6CB4 /* gangfeng.bundle in Resources */,
+				635832A4254027D000B1709A /* Assets.xcassets in Resources */,
+				6330A99925471AD800EF6CB4 /* sdlu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267F21255820A49DDB8D87F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR-Video-With-FaceUnity-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA8B7D680E94783B41A3B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57185CD2441194CF73D05C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63583290254027CD00B1709A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6330A98425471AD800EF6CB4 /* VideoProcessingManager.m in Sources */,
+				6330A98E25471AD800EF6CB4 /* FUFilterView.m in Sources */,
+				63C8CAC02542CD4000F93C66 /* FUOpenGLView.m in Sources */,
+				63C8CA682542BD3500F93C66 /* ARFaceUnityViewController.m in Sources */,
+				6358329F254027CD00B1709A /* ViewController.m in Sources */,
+				6330A98725471AD800EF6CB4 /* FUBottomColletionView.m in Sources */,
+				6330A98625471AD800EF6CB4 /* FUTestRecorder.m in Sources */,
+				6330A99325471AD800EF6CB4 /* FUBeautyView.m in Sources */,
+				6330A98B25471AD800EF6CB4 /* FUBeautyEditView.m in Sources */,
+				6330A99025471AD800EF6CB4 /* FUAPIDemoBar.m in Sources */,
+				6330A98C25471AD800EF6CB4 /* FUSlider.m in Sources */,
+				63583299254027CD00B1709A /* AppDelegate.m in Sources */,
+				6330A99E25471AD800EF6CB4 /* FUManager.m in Sources */,
+				6330A98525471AD800EF6CB4 /* CapturerManager.m in Sources */,
+				63C8CAC12542CD4000F93C66 /* FUCamera.m in Sources */,
+				6330A99425471AD800EF6CB4 /* FUDateHandle.m in Sources */,
+				6330A98F25471AD800EF6CB4 /* UIImage+demobar.m in Sources */,
+				6330A99225471AD800EF6CB4 /* UIColor+FUAPIDemoBar.m in Sources */,
+				6330A98D25471AD800EF6CB4 /* FUBeautyParam.m in Sources */,
+				635832AA254027D000B1709A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6330A95B25471AD700EF6CB4 /* FUDemoBar.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6330A95C25471AD700EF6CB4 /* zh-Hans */,
+				6330A95F25471AD700EF6CB4 /* en */,
+			);
+			name = FUDemoBar.strings;
+			sourceTree = "<group>";
+		};
+		6330A95D25471AD700EF6CB4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6330A95E25471AD700EF6CB4 /* zh-Hans */,
+				6330A96025471AD700EF6CB4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6330A96925471AD700EF6CB4 /* FUAPIDemoBar.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6330A96A25471AD700EF6CB4 /* Base */,
+			);
+			name = FUAPIDemoBar.xib;
+			sourceTree = "<group>";
+		};
+		635832A5254027D000B1709A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635832A6254027D000B1709A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635832AB254027D000B1709A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		635832AC254027D000B1709A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635832AE254027D000B1709A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EF493C3DF2CC45233C79FE /* Pods-AR-Video-With-FaceUnity-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5543CP4MRT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AR-Video-With-FaceUnity-iOS",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "AR-Video-With-FaceUnity-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.AR-Video-With-FaceUnity-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		635832AF254027D000B1709A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429D4B488D29A16F9B282D0D /* Pods-AR-Video-With-FaceUnity-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5543CP4MRT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AR-Video-With-FaceUnity-iOS",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "AR-Video-With-FaceUnity-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.AR-Video-With-FaceUnity-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6358328F254027CD00B1709A /* Build configuration list for PBXProject "AR-Video-With-FaceUnity-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635832AB254027D000B1709A /* Debug */,
+				635832AC254027D000B1709A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635832AD254027D000B1709A /* Build configuration list for PBXNativeTarget "AR-Video-With-FaceUnity-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635832AE254027D000B1709A /* Debug */,
+				635832AF254027D000B1709A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6358328C254027CD00B1709A /* Project object */;
+}

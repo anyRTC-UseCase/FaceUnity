@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-AR-Video-With-FaceUnity-iOS/Pods-AR-Video-With-FaceUnity-iOS-resources.sh
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/body_slim.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/controller.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/face_beautification.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/face_makeup.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/fuzzytoonfilter.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/fxaa.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/graphics/tongue.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/model/ai_face_processor.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/model/ai_face_processor_lite.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/model/ai_hand_processor.bundle
+${PODS_ROOT}/Nama/FaceUnity-SDK-iOS-v7.2.0/Resources/model/ai_human_processor.bundle

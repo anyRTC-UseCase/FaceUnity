@@ -1,0 +1,6 @@
+framework module Pods_AR_Video_With_FaceUnity_iOS {
+  umbrella header "Pods-AR-Video-With-FaceUnity-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

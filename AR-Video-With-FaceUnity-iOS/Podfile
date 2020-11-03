@@ -1,0 +1,9 @@
+# platform :ios, '9.0'
+
+target 'AR-Video-With-FaceUnity-iOS' do
+  use_frameworks!
+   pod 'AGMCapturer_iOS', '~> 2.0.0'
+   pod 'Nama', '~> 7.2.0'
+   pod 'Masonry'
+end
+
